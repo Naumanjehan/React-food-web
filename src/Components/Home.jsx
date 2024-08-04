@@ -5,7 +5,7 @@ import '../App.css'
 function Home() {
   return (
 <>
-      <div>
+      <div className="homepage">
           <img className="coverimage" src={coveriamge}/>
       </div>
       <div className="Search-item">

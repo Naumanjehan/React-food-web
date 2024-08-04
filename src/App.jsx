@@ -1,5 +1,5 @@
-import { useState } from 'react'
 
+import Foodmenue from './Components/Foodmenue'
 import './App.css'
 import  Header from "./Components/Header";
 import Home from './Components/Home';
@@ -12,6 +12,7 @@ function App() {
       <Header/>
       <Home/>
       <Foodcard/>
+      <Foodmenue/>
       <Footer/>
     </>
   )
