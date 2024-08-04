@@ -1,4 +1,3 @@
-
 import coveriamge from "../assets/cover-image.jpg"
 
 import '../App.css'
@@ -9,13 +8,11 @@ function Home() {
       <div>
           <img className="coverimage" src={coveriamge}/>
       </div>
-      <span style={{marginTop:"-100px"}}>
-      <input type="text" placeholder="Search for Food" style={{width: "400px",height:"40px", borderRadius:"5px"}}/>
-      </span>
-
+      <div className="Search-item">
+      <input className="searchfood" type="text" placeholder="Search for Food" />
+      <button type="button" style={{height:"38px", backgroundColor:"tomato", marginLeft:"2px", fontSize:"20px", borderRadius:"5px"}}>Search</button>
+      </div>
 </>
-
   )
 }
-
 export default Home
