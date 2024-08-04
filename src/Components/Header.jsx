@@ -1,4 +1,3 @@
-import React from 'react'
 import image from "../assets/logo.png";
 
 function Header() {

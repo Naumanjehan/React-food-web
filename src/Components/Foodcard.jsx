@@ -10,9 +10,14 @@ function Foodcard() {
     <div className='mainCotianer'>
     <div className='Foodcontainer'>
     <ul>
+         <div>
         <li><img className='foodimg' src={foodimage1} alt="" /></li>
+        {/* <span className='overlaytext'>Dahi Bally</span> */}
+        </div>
         <li><img className='foodimg' src={foodimage2} alt="" /></li>
+        {/* <span>Lunch</span> */}
         <li><img className='foodimg' src={foodimage3} alt="" /></li>
+        {/* <span>Nashta</span> */}
 
     </ul>
     </div>

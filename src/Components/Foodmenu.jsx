@@ -6,10 +6,11 @@ import great from '../assets/sm5.png'
 import menFood from '../assets/sm2.png'
 
 
-function FoodMenu() {
-  return (
-    <main className='foodmenu' >
-        <h1>Food Menu</h1>
+function Foodmenu() {
+    return (
+        <>
+      <h1 style={{textAlign:"center", justifyContent:"center"}}>Food Menu</h1>
+      <main className='foodmenu' >
         <div className='mainContainer'>
          <div className="container">
         <div className="image">
@@ -80,7 +81,8 @@ function FoodMenu() {
     </div>
     <p href=" " className='seeMore'><a href="">See more</a></p> 
     </main>
+    </>
   )
 }
 
-export default FoodMenu
+export default Foodmenu

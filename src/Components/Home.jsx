@@ -10,7 +10,7 @@ function Home() {
       </div>
       <div className="Search-item">
       <input className="searchfood" type="text" placeholder="Search for Food" />
-      <button type="button" style={{height:"38px", backgroundColor:"tomato", marginLeft:"2px", fontSize:"20px", borderRadius:"5px"}}>Search</button>
+      <button type="button" style={{padding: "10px", backgroundColor:"tomato", marginLeft:"3px", fontSize:"16px", borderRadius:"5px"}}>Search</button>
       </div>
 </>
   )
